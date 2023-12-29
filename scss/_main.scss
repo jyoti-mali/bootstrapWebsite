@@ -1,0 +1,94 @@
+main {
+    background-color: #333;
+   
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        color: white;
+        height: 65rem;
+        width: 60rem;
+        padding: 5rem 0;
+        .row{
+            justify-content: space-between;
+            section{
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+            }
+          
+            .btn{
+                margin-top: 1rem;
+            }
+        }
+
+        // .card-group {       
+        //     flex-wrap: wrap;
+        //     justify-content: space-evenly;
+
+        //     .card {
+        //         height: 25rem;
+        //         border-radius: 20px !important;
+        //         min-width: 18rem;
+        //         .card-img {
+        //             margin: 10px;
+        //         }
+        //     }
+
+        //     .card-body {
+        //         padding: .5rem;
+        //     }
+        // }
+        .card{
+            border-radius: 10px;
+            img{
+                width: 8rem;
+                margin: 2rem 2rem 0 3rem;
+            }
+        }
+    }
+}
+
+#market {
+    .container {
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        width: 50rem;
+        padding: 3rem 2rem; 
+        
+        .market-head{
+            display: flex;
+            flex-direction: column;
+            row-gap: 2em;
+            align-items: center;
+            justify-content: space-around;
+            height: 10rem;
+            margin: auto;
+            margin-bottom: 5rem;
+        }
+        .market-content{
+            display: flex;
+            justify-content: space-between;
+            column-gap: 2em;
+            h6{
+                padding: 10px 20px;
+            }
+            p{
+                width: 18rem;
+                padding: 10px 20px ;
+            }
+            .numbers{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    .numbers {
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-around;
+
+    }
+}
+

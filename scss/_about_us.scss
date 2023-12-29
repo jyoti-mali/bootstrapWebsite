@@ -1,0 +1,27 @@
+#about_us {
+    .container {
+        width: 60rem;
+        height: 40rem;
+        margin: 5rem auto;
+
+        .sub-div {
+            display: flex;
+            flex-direction: column;
+            
+            section{
+                display: inline-block;
+                width: 20rem;
+                h5{
+                    padding-left: 1rem;
+                }
+                hr{
+                    margin: 0;
+                    overflow: hidden;
+                }
+            }
+            p {
+                padding-left: 90px;
+            }
+        }
+    }
+}

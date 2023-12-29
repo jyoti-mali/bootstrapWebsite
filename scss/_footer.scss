@@ -1,0 +1,52 @@
+footer{
+    background-color: $gray;
+    color: $white;
+    padding: 50px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .number{
+        color: $yellow;
+    }
+    img{
+        height: 20px;
+    }
+   small{
+        width: 500px;
+        margin: auto;
+    }
+}
+.line-break{
+    height: 2px;
+    background-color: $gray-line;
+}
+.location{
+    color: $yellow;
+    text-decoration: underline;
+    &:hover{
+        color: $yellow;
+    }
+}
+.columns{
+    @include dis-flex();
+    gap: 130px;
+    .column{
+        h6{
+            padding: 10px 0;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            @include dis-flex();
+            flex-direction: column;
+            gap: 5px;
+            a{
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+   
+}

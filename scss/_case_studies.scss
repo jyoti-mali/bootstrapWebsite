@@ -1,0 +1,57 @@
+#caseStudy{
+    background-color: #292930;
+    padding-top: 3rem;
+    .container{
+        width: 60rem;
+        height: 45rem;
+        .row{
+            // justify-content: space-between;
+           
+        section {
+            display: flex;
+            align-items: flex-start;
+            color: #fff;
+            img {
+                width: 3rem;
+            }
+        }
+            .btn{
+                margin-top: 1rem;
+            }
+        }
+        .cards-sec{
+            height: 30rem;
+            .card-column{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .arrow{
+                background-color: #292930;
+                border-radius: 50%;
+                i{
+                    padding: 0 0.3rem;
+                }
+            }
+
+            .img-wrapper{
+               img{
+                width: 25rem;
+               }
+            }
+         
+        }   
+
+        .case-info{
+            gap: 5rem;
+          
+            section{
+                width: 10rem;
+            }
+            b{
+                font-size: 2rem;
+            }
+        }
+    }
+    
+}
